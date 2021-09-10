@@ -178,3 +178,11 @@ Set the Android project minimum API level to '29'.
 Add the LDFLAG '-lz' when linking the OpenCV project. 
 
 ---
+
+#### Useful Reading List
+
+1. [Compiling and Using OpenCV on Android from C++ (Without OpenCVManager)](https://www.sisik.eu/blog/android/ndk/opencv-without-java)
+
+2. [Build OpenCV for Android with LLVM C++ Runtime](https://discuz-android.blogspot.com/2017/10/build-opencv-for-android-with-llvm-c.html)
+
+---
