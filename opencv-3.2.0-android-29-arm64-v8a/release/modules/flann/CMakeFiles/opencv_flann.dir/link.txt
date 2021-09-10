@@ -1,0 +1,2 @@
+/home/dev/workspace/dev-tools/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/bin/aarch64-linux-android-ar qc ../../lib/arm64-v8a/libopencv_flann.a  CMakeFiles/opencv_flann.dir/src/flann.cpp.o CMakeFiles/opencv_flann.dir/src/miniflann.cpp.o
+/home/dev/workspace/dev-tools/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/bin/aarch64-linux-android-ranlib ../../lib/arm64-v8a/libopencv_flann.a

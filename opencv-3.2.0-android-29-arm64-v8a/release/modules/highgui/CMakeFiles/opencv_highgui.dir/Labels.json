@@ -1,0 +1,44 @@
+
+{
+	"sources" : 
+	[
+		
+		{
+			"file" : "/home/dev/workspace/repositories/opencv-3.2.0/opencv-3.2.0/modules/highgui/include/opencv2/highgui.hpp",
+			"labels" : [ "Main", "opencv_highgui", "Module" ]
+		},
+		
+		{
+			"file" : "/home/dev/workspace/repositories/opencv-3.2.0/opencv-3.2.0/modules/highgui/include/opencv2/highgui/highgui.hpp",
+			"labels" : [ "Main", "opencv_highgui", "Module" ]
+		},
+		
+		{
+			"file" : "/home/dev/workspace/repositories/opencv-3.2.0/opencv-3.2.0/modules/highgui/include/opencv2/highgui/highgui_c.h",
+			"labels" : [ "Main", "opencv_highgui", "Module" ]
+		},
+		
+		{
+			"file" : "/home/dev/workspace/repositories/opencv-3.2.0/opencv-3.2.0/modules/highgui/src/window.cpp",
+			"labels" : [ "Main", "opencv_highgui", "Module" ]
+		},
+		
+		{
+			"file" : "/home/dev/workspace/repositories/opencv-3.2.0/opencv-3.2.0/modules/highgui/src/precomp.hpp",
+			"labels" : [ "Main", "opencv_highgui", "Module" ]
+		},
+		
+		{
+			"file" : "/home/dev/workspace/repositories/opencv-3.2.0/opencv-3.2.0-android-29-arm64-v8a/release/cvconfig.h"
+		},
+		
+		{
+			"file" : "/home/dev/workspace/repositories/opencv-3.2.0/opencv-3.2.0-android-29-arm64-v8a/release/opencv2/opencv_modules.hpp"
+		}
+	],
+	"target" : 
+	{
+		"labels" : [ "Main", "opencv_highgui", "Module" ],
+		"name" : "opencv_highgui"
+	}
+}

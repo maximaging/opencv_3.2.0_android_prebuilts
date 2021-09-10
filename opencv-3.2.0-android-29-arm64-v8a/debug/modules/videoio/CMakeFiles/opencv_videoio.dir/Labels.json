@@ -1,0 +1,64 @@
+
+{
+	"sources" : 
+	[
+		
+		{
+			"file" : "/home/dev/workspace/repositories/opencv-3.2.0/opencv-3.2.0/modules/videoio/include/opencv2/videoio.hpp",
+			"labels" : [ "Main", "opencv_videoio", "Module" ]
+		},
+		
+		{
+			"file" : "/home/dev/workspace/repositories/opencv-3.2.0/opencv-3.2.0/modules/videoio/include/opencv2/videoio/videoio.hpp",
+			"labels" : [ "Main", "opencv_videoio", "Module" ]
+		},
+		
+		{
+			"file" : "/home/dev/workspace/repositories/opencv-3.2.0/opencv-3.2.0/modules/videoio/include/opencv2/videoio/cap_ios.h",
+			"labels" : [ "Main", "opencv_videoio", "Module" ]
+		},
+		
+		{
+			"file" : "/home/dev/workspace/repositories/opencv-3.2.0/opencv-3.2.0/modules/videoio/include/opencv2/videoio/videoio_c.h",
+			"labels" : [ "Main", "opencv_videoio", "Module" ]
+		},
+		
+		{
+			"file" : "/home/dev/workspace/repositories/opencv-3.2.0/opencv-3.2.0/modules/videoio/src/cap.cpp",
+			"labels" : [ "Main", "opencv_videoio", "Module" ]
+		},
+		
+		{
+			"file" : "/home/dev/workspace/repositories/opencv-3.2.0/opencv-3.2.0/modules/videoio/src/cap_images.cpp",
+			"labels" : [ "Main", "opencv_videoio", "Module" ]
+		},
+		
+		{
+			"file" : "/home/dev/workspace/repositories/opencv-3.2.0/opencv-3.2.0/modules/videoio/src/cap_mjpeg_encoder.cpp",
+			"labels" : [ "Main", "opencv_videoio", "Module" ]
+		},
+		
+		{
+			"file" : "/home/dev/workspace/repositories/opencv-3.2.0/opencv-3.2.0/modules/videoio/src/cap_mjpeg_decoder.cpp",
+			"labels" : [ "Main", "opencv_videoio", "Module" ]
+		},
+		
+		{
+			"file" : "/home/dev/workspace/repositories/opencv-3.2.0/opencv-3.2.0/modules/videoio/src/precomp.hpp",
+			"labels" : [ "Main", "opencv_videoio", "Module" ]
+		},
+		
+		{
+			"file" : "/home/dev/workspace/repositories/opencv-3.2.0/opencv-3.2.0-android-29-arm64-v8a/debug/cvconfig.h"
+		},
+		
+		{
+			"file" : "/home/dev/workspace/repositories/opencv-3.2.0/opencv-3.2.0-android-29-arm64-v8a/debug/opencv2/opencv_modules.hpp"
+		}
+	],
+	"target" : 
+	{
+		"labels" : [ "Main", "opencv_videoio", "Module" ],
+		"name" : "opencv_videoio"
+	}
+}
