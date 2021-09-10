@@ -94,7 +94,7 @@ TARGET_LINK_LIBRARIES( # ...
 
 ---
 
-##### Troubleshoots
+#### Troubleshoots
 
 <details>
 <summary>(A) If the OpenCV folder has been moved to another directory and the package configuration file is not found <i>(click to expand)</i></summary>
