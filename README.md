@@ -185,4 +185,6 @@ Add the LDFLAG '-lz' when linking the OpenCV project.
 
 2. [discuz-android: Build OpenCV for Android with LLVM C++ Runtime](https://discuz-android.blogspot.com/2017/10/build-opencv-for-android-with-llvm-c.html)
 
+3. [amritamaz.net: Useful Cmake Flags to Turn On and Off in Your OpenCV install](http://amritamaz.net/blog/opencv-config)
+
 ---
