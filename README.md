@@ -66,7 +66,7 @@ cmake ${OPENCV_CMAKEFILE_PATH} -DCMAKE_TOOLCHAIN_FILE=${ANDROID_TOOLCHAIN_FILE} 
 #### Notes
 
 + ***The installation prefix has been explicitely configured for supporting CMake commands such as 'find_package', 'find_program', 'find_library', 'find_path', and 'find_file' in any linked Android projects.***
-+ *FP16 compiler support has been disabled.*
++ *FP16 compiler support has been disabled.* <details><summary>Why? <i>(click to expand)</i></summary>When FP16 support is enabled, CMake logs indicates that the test 'CXX_HAS_MFPU_NEON' is performed and validated, the test 'C_HAS_MFPU_NEON' is performed and validated and the check file 'cmake/checks/fp16.cpp' is ignored. And the libraries and example applications are not successfully built ([CMake configuration logs](https://pastebin.com/bTqZkjTc) and [compilation error logs](https://pastebin.com/ucfYPfEs)). From my investigation, it appears that some progress on FP16 compiler support for OpenCV has been integrated (reviewed and merged) following the release 3.2.0. [This merge](https://github.com/opencv/opencv/pull/20321) from June 21 is the latest work on this matter, a comment from \@alalek introduces some previous pull requests. [More details](https://stackoverflow.com/questions/51319822/compiling-qt-and-opencv-for-arm64-v8a/69281180#69281180) available on a related discussion thread on StackOverflow.</details>
 + *The command argument "-DANDROID_SDK_TARGET" is not required if OpenCV Java API and samples are not generated.*
 ---
 #### How to link OpenCV libraries with the Android Studio project?
