@@ -1,0 +1,14 @@
+# Package Information for pkg-config
+
+prefix=/home/dev/workspace/repositories/opencv-3.2.0/opencv-3.2.0-android-25-arm64-v8a/debug
+exec_prefix=${prefix}
+libdir=${exec_prefix}/sdk/native/libs/arm64-v8a
+includedir_old=${prefix}/sdk/native/jni/include/opencv
+includedir_new=${prefix}/sdk/native/jni/include
+
+Name: OpenCV
+Description: Open Source Computer Vision Library
+Version: 3.2.0
+Libs: -L${exec_prefix}/sdk/native/libs/arm64-v8a -lopencv_shape -lopencv_stitching -lopencv_objdetect -lopencv_superres -lopencv_videostab -lopencv_calib3d -lopencv_features2d -lopencv_highgui -lopencv_videoio -lopencv_imgcodecs -lopencv_video -lopencv_photo -lopencv_ml -lopencv_imgproc -lopencv_flann -lopencv_core
+Libs.private: -L${exec_prefix}/sdk/native/3rdparty/libs/arm64-v8a -llibjpeg -llibwebp -llibpng -llibtiff -llibjasper -lIlmImf -ltegra_hal -L/home/dev/workspace/dev-tools/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/aarch64-linux-android -lz -ldl -lm -llog
+Cflags: -I${includedir_old} -I${includedir_new}

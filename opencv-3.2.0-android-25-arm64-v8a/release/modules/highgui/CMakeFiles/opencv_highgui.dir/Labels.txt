@@ -1,0 +1,27 @@
+# Target labels
+ Main
+ opencv_highgui
+ Module
+# Source files and their labels
+/home/dev/workspace/repositories/opencv-3.2.0/opencv-3.2.0/modules/highgui/include/opencv2/highgui.hpp
+ Main
+ opencv_highgui
+ Module
+/home/dev/workspace/repositories/opencv-3.2.0/opencv-3.2.0/modules/highgui/include/opencv2/highgui/highgui.hpp
+ Main
+ opencv_highgui
+ Module
+/home/dev/workspace/repositories/opencv-3.2.0/opencv-3.2.0/modules/highgui/include/opencv2/highgui/highgui_c.h
+ Main
+ opencv_highgui
+ Module
+/home/dev/workspace/repositories/opencv-3.2.0/opencv-3.2.0/modules/highgui/src/window.cpp
+ Main
+ opencv_highgui
+ Module
+/home/dev/workspace/repositories/opencv-3.2.0/opencv-3.2.0/modules/highgui/src/precomp.hpp
+ Main
+ opencv_highgui
+ Module
+/home/dev/workspace/repositories/opencv-3.2.0-android-prebuilts.git/opencv-3.2.0-android-25-arm64-v8a/release/cvconfig.h
+/home/dev/workspace/repositories/opencv-3.2.0-android-prebuilts.git/opencv-3.2.0-android-25-arm64-v8a/release/opencv2/opencv_modules.hpp
