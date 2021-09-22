@@ -171,7 +171,7 @@ TARGET_LINK_LIBRARIES( # ...
 ```
 </details> 
 
-(B) If OpenCV_FOUND variable is set to 'FALSE'\
+(B) If OpenCV_FOUND variable is founded but is set to 'FALSE'\
 Set the Android project minimum API level to '29'.
 
 (C) If 'zlib' functions such as 'gzopen' are undefined\
