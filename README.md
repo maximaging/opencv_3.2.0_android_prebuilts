@@ -30,9 +30,9 @@ OPENCV_INSTALL_PATH=/home/dev/workspace/repositories/opencv-3.2.0/opencv-3.2.0-a
 # From /home/dev/workspace/repositories/opencv-3.2.0/opencv-3.2.0-android-25-arm64-v8a/release
 cmake ${OPENCV_CMAKEFILE_PATH} -DCMAKE_TOOLCHAIN_FILE=${ANDROID_TOOLCHAIN_FILE} -DANDROID_NDK=${ANDROID_NDK_PATH} -DANDROID_NATIVE_API_LEVEL=android-29 -DBUILD_JAVA=OFF -DBUILD_ANDROID_EXAMPLES=ON -DBUILD_ANDROID_PROJECTS=ON -DANDROID_STL=c++_static -DBUILD_SHARED_LIBS=OFF -DCMAKE_INSTALL_PREFIX:PATH=${OPENCV_INSTALL_PATH} -DANDROID_ABI=arm64-v8a -DOPENCV_FP16_DISABLE=ON -DCMAKE_BUILD_TYPE=Release
 ```
-+ [CMake command log](logs/release_build_configuration.md)
++ [CMake command log](opencv-3.2.0-android-29-arm64-v8a/logs/release_build_configuration.md)
 
-+ [Release compilation log](logs/release_build_compilation.md)
++ [Release compilation log](opencv-3.2.0-android-29-arm64-v8a/logs/release_build_compilation.md)
 
 ---
 ## Debug Build Details
@@ -58,9 +58,9 @@ OPENCV_INSTALL_PATH=/home/dev/workspace/repositories/opencv-3.2.0/opencv-3.2.0-a
 # From /home/dev/workspace/repositories/opencv-3.2.0/opencv-3.2.0-android-25-arm64-v8a/debug
 cmake ${OPENCV_CMAKEFILE_PATH} -DCMAKE_TOOLCHAIN_FILE=${ANDROID_TOOLCHAIN_FILE} -DANDROID_NDK=${ANDROID_NDK_PATH} -DANDROID_NATIVE_API_LEVEL=android-29 -DBUILD_JAVA=OFF -DBUILD_ANDROID_EXAMPLES=ON -DBUILD_ANDROID_PROJECTS=ON -DANDROID_STL=c++_static -DBUILD_SHARED_LIBS=OFF -DCMAKE_INSTALL_PREFIX:PATH=${OPENCV_INSTALL_PATH} -DANDROID_ABI=arm64-v8a -DOPENCV_FP16_DISABLE=ON -DCMAKE_BUILD_TYPE=Debug
 ```
-+ [CMake command log](logs/debug_build_configuration.md)
++ [CMake command log](opencv-3.2.0-android-29-arm64-v8a/logs/debug_build_configuration.md)
 
-+ [Debug compilation log](logs/debug_build_compilation.md)
++ [Debug compilation log](opencv-3.2.0-android-29-arm64-v8a/logs/debug_build_compilation.md)
 
 ---
 #### Notes
