@@ -187,7 +187,7 @@ TARGET_LINK_LIBRARIES( # ...
 </details> 
 
 (B) If OpenCV_FOUND variable is founded but is set to 'FALSE'\
-Set the Android project minimum API level to '29'.
+Set the Android project minimum API level to the configured 'ANDROID_API_LEVEL' value.
 
 (C) If 'zlib' functions such as 'gzopen' are undefined\
 Add the LDFLAG '-lz' when linking the OpenCV project. 
